@@ -1,1 +1,54 @@
+body{
+    background-color: aliceblue;
+    width: 1200px;
+    padding: 0 147px;
+    margin:  0 auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.header-list{
+     display: flex;
+     justify-content: space-between;
+     margin: 0 auto ;
+     width: 555px;
+}
+.header{
+    padding-top: 51px;
+    padding-bottom: 92px;
+}
+.header-link{
+    color: #03a9f4;
 
+}
+.header-link:hover{
+    color: burlywood;
+}
+.wrapper{
+    display: flex;
+}
+.card{
+    width: 420px;
+}
+.wrapp-img{
+    margin-bottom: 62px;
+}
+.name{
+    margin-bottom: 32px;
+}
+.title{
+    margin-bottom: 40px;
+}
+.container{
+    width: 1200px;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
